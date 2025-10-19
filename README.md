@@ -1,16 +1,130 @@
-# React + Vite
+# 💰 Personal Finance Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful and modern personal finance tracker built with React. Track your income, expenses, and visualize your spending patterns with interactive charts.
 
-Currently, two official plugins are available:
+![Finance Tracker](screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- 📊 **Dashboard** - Overview of your financial health
+- ➕ **Add Transactions** - Easy form to record income/expenses
+- 📋 **Transaction History** - View and filter all transactions
+- 📈 **Analytics** - Beautiful charts and visualizations
+  - Pie chart for expense breakdown by category
+  - Bar chart for monthly income vs expenses
+  - Line chart for net income trends
+- 💾 **Local Storage** - Data persists across sessions
+- 🎨 **Modern UI** - Dark theme with smooth animations
+- 📱 **Responsive** - Works on all devices
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- **React** - UI library
+- **React Router** - Navigation
+- **Recharts** - Data visualization
+- **Vite** - Build tool
+- **CSS3** - Styling
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js (v20.19+ or v22.12+)
+- npm or yarn
+
+### Setup
+
+1. Clone the repository
+```bash
+git clone https://github.com/mirfan02/personal-finance-tracker.git
+cd personal-finance-tracker
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Run the development server
+```bash
+npm run dev
+```
+
+4. Open your browser to `http://localhost:5173`
+
+## 🎯 How to Use
+
+1. **Dashboard** - View your total income, expenses, and balance at a glance
+2. **Add Transaction** - Click "Add Transaction" to record new income or expense
+3. **Transactions** - View all transactions and filter by type (income/expense)
+4. **Analytics** - Visualize your spending patterns with interactive charts
+
+## 📊 Features in Detail
+
+### Dashboard
+- Total income, expenses, and balance cards
+- This month's statistics
+- Recent transactions preview
+
+### Add Transaction
+- Toggle between income and expense
+- Add description, amount, category, and date
+- Success notification after adding
+
+### Transactions Page
+- View all transactions
+- Filter by type (All, Income, Expenses)
+- Delete transactions
+- Responsive transaction cards
+
+### Analytics Page
+- **Expense Breakdown** - Pie chart showing spending by category
+- **Monthly Comparison** - Bar chart comparing income vs expenses
+- **Net Income Trend** - Line chart showing 6-month financial trend
+- Category-wise spending breakdown with percentages
+
+## 📱 Screenshots
+
+_Add screenshots of your app here_
+
+## 🔮 Future Enhancements
+
+- [ ] Add budget goals and alerts
+- [ ] Export data to CSV/PDF
+- [ ] Monthly/yearly reports
+- [ ] Multiple currency support
+- [ ] Recurring transactions
+- [ ] Dark/Light theme toggle
+- [ ] Cloud sync with backend
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 👨‍💻 Author
+
+**Muhammad Irfan**
+- GitHub: [@mirfan02](https://github.com/mirfan02)
+
+## 🙏 Acknowledgments
+
+- Built with ❤️ using React
+- Charts powered by Recharts
+- Icons from emoji
+
+---
+
+⭐ **Star this repo** if you found it helpful!
+
+💡 **Fork and customize** for your own use!
